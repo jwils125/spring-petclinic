@@ -11,18 +11,18 @@
 
 HW 8 Deliverables [50 pts]
 DOCKER
-- Your docker File. Please provide a link to this  File rather than a screen capture. 
+- Your docker File. Please provide a link to this  File rather than a screen capture. https://github.com/jwils125/spring-petclinic/blob/master/Dockerfile
 - Your running docker instance as shown by a ps command. ![Screen Capture #1](images/dokcerpsRunning.PNG)
 - Your browser accessing the main page of the website from your local container. ![Screen Capture #1](images/browserAcessFromLocalContainer.PNG)
 DOCKER COMPOSE - MYSQL ONLY
 - The output from the docker-compose up command. ![Screen Capture #1](images/docer-composeUpOutput.PNG)
-- Your browser accessing the "Veterinarians" page of the website from your local container when you run the application from the host system. ![Screen Capture #1](images/docer-composeUpOutput.PNG)
+- Your browser accessing the "Veterinarians" page of the website from your local container when you run the application from the host system. ![Screen Capture #1](images/SQLConnectionLocally.PNG)
 - A section of the stack trace generated when you attempt to run the application container that has been updated to use MySQL. ![Screen Capture #1](images/RestartWithPropertyCommentedOut.PNG)
 DOCKER COMPOSE - APP SERVER AND MYSQL
 - Your updated docker-compose.yml  File containing the application server, built from your local Docker File, and the existing MySQL configuration. Please provide a link to this  File rather than a screen capture.
-- Your updated application-mysql.properties  File containing the URL change for the database server. Please provide a link to this  File rather than a screen capture.
+- Your updated application-mysql.properties  File containing the URL change for the database server. Please provide a link to this  File rather than a screen capture. https://github.com/jwils125/spring-petclinic/blob/master/docker-compose.yml
 - The output from the docker-compose up command. ![Screen Capture #1](images/BothDocker-composeUpOutput.PNG)
-- Your browser accessing the \Veterinarians" page of the website from your local container. ![Screen Capture #1](images/BothDocker-composeUpOutput.PNG)
+- Your browser accessing the "Veterinarians" page of the website from your local container. ![Screen Capture #1](images/PetClinicAfterDockerCompose.PNG)
 
 
 
